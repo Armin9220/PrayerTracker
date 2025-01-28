@@ -1,4 +1,4 @@
-acker WebApp
+PrayerTracker WebApp
 
 ## Projektübersicht
 Die Prayer Tracker WebApp ist eine Webanwendung, die es Benutzern ermöglicht, Gebetszeiten zu verwalten und Gebetsaufgaben abzuhaken. Die Webanwendung unterstützt mehrere Benutzer und speichert Daten sicher in einer Supabase-Datenbank. Nutzer können ihre Gebetszeiten und Gebetserfahrungen eintragen, die erledigten Aufgaben abhaken und ihre Gebetsliste für den Tag sehen.
@@ -33,30 +33,20 @@ Die Prayer Tracker WebApp ist eine Webanwendung, die es Benutzern ermöglicht, G
 
 ```markdown
 1. **Projekt klonen**:
-
-```bash
 git clone <repository-url>
 cd <repository-directory>
+
 Abhängigkeiten installieren:
-bash
-Kopieren
-Bearbeiten
 npm install
-Supabase-Umgebungsvariablen konfigurieren: Erstelle eine .env Datei im Projektverzeichnis und füge deine Supabase-URL und den Anon-Schlüssel hinzu:
+
+Supabase-Umgebungsvariablen konfigurieren:
+Erstelle eine .env Datei im Projektverzeichnis und füge deine Supabase-URL und den Anon-Schlüssel hinzu:
 env
-Kopieren
-Bearbeiten
 REACT_APP_SUPABASE_URL=your-supabase-url
 REACT_APP_SUPABASE_ANON_KEY=your-supabase-anon-key
 Entwicklungsserver starten:
-bash
-Kopieren
-Bearbeiten
 npm start
 Webanwendung aufrufen: Öffne deinen Browser und gehe zu http://localhost:3000.
-markdown
-Kopieren
-Bearbeiten
 
 ## User Stories mit Akzeptanzkriterien
 
